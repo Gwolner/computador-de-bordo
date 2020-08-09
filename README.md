@@ -29,6 +29,8 @@ Caso deseje-se redirecionar o form para uma página JSP, por exemplo, é preciso
 </html>
 ```
 
+### Servlet
+
 ```java
 package servlets;
 
@@ -68,3 +70,12 @@ public class Computador extends HttpServlet {
 }
 
 ```
+
+### Interface JSP
+
+```jsp
+ATUALIZAR
+```
+
+
+
