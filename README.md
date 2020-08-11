@@ -1,6 +1,10 @@
 # Computador de bordo
 
-> Computador de bordo com interface HTML realizando requisição para um Servlet que a trata e redireciona para uma interface JSP de saída. Este projeto visa compreender, na prática, os fundamentos de Java Web.
+> Interface HTML de um Computador de bordo que realiza requisição para um Servlet, onde o mesmo invoca uma classe Java para realizar cálculos matemático, cujos resultados são anexados a requisição realziada e redirecionada para tratamento em uma interface JSP de saída.
+
+
+
+
 
 ### Interface HTML
 
