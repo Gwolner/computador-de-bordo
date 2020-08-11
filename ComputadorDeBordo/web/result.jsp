@@ -1,9 +1,3 @@
-<%-- 
-    Document   : result
-    Created on : 08/08/2020, 19:36:44
-    Author     : wolner
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
