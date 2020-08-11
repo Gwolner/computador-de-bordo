@@ -31,6 +31,9 @@ public class Rede extends HttpServlet {
             out.println("Porta do servidor ..................: "+request.getRemotePort()+"<br>");
             out.println("Método de requisição ...............: "+request.getMethod()+"<br>");
             out.println("Protocolo utilizado ................: "+request.getProtocol()+"<br>");
+            out.println("<form>");            
+            out.println("<input type=\"submit\" value=\"Voltar\" formmethod=\"get\" formaction=\"index.html\">");
+            out.println("</form>");
             out.println("</body>");
             out.println("</html>");
         } 

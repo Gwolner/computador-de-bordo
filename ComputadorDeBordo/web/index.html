@@ -6,14 +6,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <form method="post" action="Computador">
+        <form>
             Total de combustível (litros):
             <input type="text" size="10" name="total"><br>
             Preço do litro (R$):
             <input type="text" size="10" name="preco"><br>
             Consumo médio (Km/l):
             <input type="text" size="10" name="consumo"><br>
-            <input type="submit" value="Calcular">
+            <input type="submit" value="Calcular" formmethod="post" formaction="Computador">
             <input type="submit" value="Testar rede" formmethod="get" formaction="Rede">
         </form>
     </body>
