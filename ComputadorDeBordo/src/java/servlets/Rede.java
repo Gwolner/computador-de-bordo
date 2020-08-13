@@ -23,6 +23,7 @@ public class Rede extends HttpServlet {
             out.println("<title>Servlet SegundoServlet</title>");            
             out.println("</head>");
             out.println("<body>");
+            out.println("<h1>Status da rede</h1>");
             out.println("Nome do servlet ....................: "+request.getContextPath()+"<br>");
             out.println("Nome da máquina local ..............: "+request.getLocalName()+"<br>");
             out.println("Endereço da máquina local ..........: "+request.getLocalAddr()+"<br>");
@@ -30,7 +31,7 @@ public class Rede extends HttpServlet {
             out.println("Endereço do servidor ...............: "+request.getRemoteHost()+"<br>");
             out.println("Porta do servidor ..................: "+request.getRemotePort()+"<br>");
             out.println("Método de requisição ...............: "+request.getMethod()+"<br>");
-            out.println("Protocolo utilizado ................: "+request.getProtocol()+"<br>");
+            out.println("Protocolo utilizado ................: "+request.getProtocol()+"<br><br>");
             out.println("<form>");            
             out.println("<input type=\"submit\" value=\"Voltar\" formmethod=\"get\" formaction=\"index.html\">");
             out.println("</form>");

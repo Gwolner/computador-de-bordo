@@ -11,7 +11,7 @@
             Distância máxima (Km):
             <input type="text" size="10" value="<%= request.getAttribute("distancia") %>" disabled ><br>
             Valor gasto para abastecer (R$):
-            <input type="text" size="10" value="<%= request.getAttribute("valor") %>" disabled ><br>
+            <input type="text" size="10" value="<%= request.getAttribute("valor") %>" disabled ><br><br>
             <input type="submit" value="Voltar" >
         </form>
     </body>
