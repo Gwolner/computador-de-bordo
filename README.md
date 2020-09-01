@@ -2,10 +2,6 @@
 
 > Interface HTML de um Computador de bordo que realiza requisição para um Servlet, onde o mesmo invoca uma classe Java para realizar cálculos matemático, cujos resultados são anexados a requisição realziada e redirecionada para tratamento em uma interface JSP de saída.
 
-
-
-
-
 ### Interface HTML
 
 Nada tão diferente de uma página HTML convencional. Apenas atentar para o detalhe do action do form, pois este aponta para o **nome do servlet sem a extensão**.
