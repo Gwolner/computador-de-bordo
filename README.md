@@ -1,13 +1,13 @@
 # Computador de bordo
 
-> Interface HTML de um Computador de bordo que realiza requisição para um Servlet, onde o mesmo invoca uma classe Java para realizar cálculos matemático, cujos resultados são anexados a requisição realizada e redirecionada para tratamento em uma interface JSP de saída.
+> Interface JSP de um Computador de bordo que realiza requisição para um Servlet, onde o mesmo invoca uma classe Java para realizar cálculos matemático, cujos resultados são anexados a requisição realizada e redirecionada para exibição em uma outra interface JSP.
 
-### Interface HTML
+### index.jsp
 
 Nada tão diferente de uma página HTML convencional. Apenas atentar para o detalhe do action do form, pois este aponta para o **nome do servlet sem a extensão**.
 Caso deseje-se redirecionar o form para uma página JSP, por exemplo, é preciso incluir o nome do arquivo e sua extensão (exemplo: nome.jsp)
 
-```html
+```jsp
 <!DOCTYPE html>
 <html>
     <head>
@@ -71,10 +71,10 @@ public class Computador extends HttpServlet {
 
 ```
 
-### Interface JSP
+### network.jsp
 
 ```jsp
-ATUALIZAR
+
 ```
 
 
