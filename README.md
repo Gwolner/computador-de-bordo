@@ -1,4 +1,4 @@
-# Computador de bordo
+# iGmax - Computador de bordo
 
 > Interface JSP de um Computador de bordo que realiza requisição para um Servlet, onde o mesmo invoca uma classe Java para realizar cálculos matemático, cujos resultados são anexados a requisição realizada e redirecionada para exibição em uma outra interface JSP.
 
