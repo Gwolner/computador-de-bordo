@@ -1,6 +1,6 @@
 # Computador de bordo
 
-> Interface HTML de um Computador de bordo que realiza requisição para um Servlet, onde o mesmo invoca uma classe Java para realizar cálculos matemático, cujos resultados são anexados a requisição realziada e redirecionada para tratamento em uma interface JSP de saída.
+> Interface HTML de um Computador de bordo que realiza requisição para um Servlet, onde o mesmo invoca uma classe Java para realizar cálculos matemático, cujos resultados são anexados a requisição realizada e redirecionada para tratamento em uma interface JSP de saída.
 
 ### Interface HTML
 
