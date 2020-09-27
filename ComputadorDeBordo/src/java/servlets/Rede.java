@@ -33,7 +33,7 @@ public class Rede extends HttpServlet {
             out.println("Método de requisição ...............: "+request.getMethod()+"<br>");
             out.println("Protocolo utilizado ................: "+request.getProtocol()+"<br><br>");
             out.println("<form>");            
-            out.println("<input type=\"submit\" value=\"Voltar\" formmethod=\"get\" formaction=\"index.html\">");
+            out.println("<input type=\"submit\" value=\"Voltar\" formmethod=\"get\" formaction=\"index.jsp\">");
             out.println("</form>");
             out.println("</body>");
             out.println("</html>");

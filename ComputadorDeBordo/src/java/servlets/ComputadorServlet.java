@@ -9,8 +9,8 @@ import javax.servlet.http.HttpServletResponse;
 import model.OperacaoDeCalculo;
 
 
-@WebServlet(name = "Computador", urlPatterns = {"/Computador"})
-public class Computador extends HttpServlet {
+@WebServlet(name = "ComputadorServlet", urlPatterns = {"/ComputadorServlet"})
+public class ComputadorServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
