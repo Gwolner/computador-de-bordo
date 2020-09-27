@@ -29,7 +29,7 @@ public class Computador extends HttpServlet {
         request.setAttribute("valor", valor);
         request.setAttribute("distancia", distancia);
         
-        //Redirecionando a requisição para outra página
+        //Dispachando a requisição para outra página
         request.getRequestDispatcher("result.jsp").forward(request, response);
     }
 
