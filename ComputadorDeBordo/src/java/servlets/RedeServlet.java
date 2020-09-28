@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 
 
 @WebServlet(name = "Rede", urlPatterns = {"/Rede"})
-public class Rede extends HttpServlet {
+public class RedeServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)

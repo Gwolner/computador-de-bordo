@@ -3,6 +3,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="css/style.css" rel="stylesheet">
         <title>iGmax</title>
     </head>
     <body>
@@ -15,12 +16,10 @@
                 <input type="text" size="10" name="preco" required><br>
                 <label>Consumo médio (Km/l):</label>
                 <input type="text" size="10" name="consumo" required><br><br>
-                <input class="btn" type="submit" value="Calcular">
-                <!--<input type="submit" value="Calcular" formmethod="post" formaction="Computador">-->
-                <!--<input type="submit" value="Testar rede" formmethod="get" formaction="Rede">-->
+                <input class="btn left" type="submit" value="Calcular">
             </form>
-            <form method="get" action="Rede">
-                <input class="btn" type="submit" value="Testar rede">
+            <form method="get" action="network.jsp">
+                <input class="btn rigth" type="submit" value="Testar rede">
             </form>
         </div>
     </body>
