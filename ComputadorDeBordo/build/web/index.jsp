@@ -8,17 +8,17 @@
     </head>
     <body>
         <div class="board">
-            <h1 class="title">Painel principal</h1>
+            <h1 class="title">iGmax</h1>
             <form method="post" action="ComputadorServlet">
-                <label>Total de combustível (litros):</label>
-                <input type="text" size="10" name="total" required><br>
-                <label>Preço do litro (R$):</label>
-                <input type="text" size="10" name="preco" required><br>
-                <label>Consumo médio (Km/l):</label>
-                <input type="text" size="10" name="consumo" required><br><br>
+                <label>Total de combustível:</label>
+                <input type="number" size="10" name="total" required placeholder=" Litros"><br>
+                <label>Preço do litro:</label>
+                <input type="number" size="10" name="preco" required placeholder=" R$"><br>
+                <label>Consumo médio:</label>
+                <input type="number" size="10" name="consumo" required placeholder=" Km/l"><br><br>
                 <input class="btn left" type="submit" value="Calcular">
             </form>
-            <form method="get" action="RedeServlet">
+            <form method="get" action="network.jsp">
                 <input class="btn rigth" type="submit" value="Testar rede">
             </form>
         </div>

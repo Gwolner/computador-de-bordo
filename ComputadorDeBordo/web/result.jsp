@@ -8,7 +8,7 @@
     <body>
         <div class="board">
             <h1 class="title">Resultado</h1>
-            <form method="get" action="index.html">
+            <form method="get" action="index.jsp">
                 <label>Distância máxima (Km):</label>
                 <input type="text" size="10" value="<%= request.getAttribute("distancia")%>" disabled ><br>
                 <label>Valor gasto para abastecer (R$):</label>

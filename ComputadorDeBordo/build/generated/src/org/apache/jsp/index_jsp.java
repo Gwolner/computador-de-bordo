@@ -53,12 +53,12 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("        <div class=\"board\">\n");
       out.write("            <h1 class=\"title\">Painel principal</h1>\n");
       out.write("            <form method=\"post\" action=\"ComputadorServlet\">\n");
-      out.write("                <label>Total de combustível (litros):</label>\n");
-      out.write("                <input type=\"text\" size=\"10\" name=\"total\" required><br>\n");
-      out.write("                <label>Preço do litro (R$):</label>\n");
-      out.write("                <input type=\"text\" size=\"10\" name=\"preco\" required><br>\n");
-      out.write("                <label>Consumo médio (Km/l):</label>\n");
-      out.write("                <input type=\"text\" size=\"10\" name=\"consumo\" required><br><br>\n");
+      out.write("                <label>Total de combustível:</label>\n");
+      out.write("                <input type=\"number\" size=\"10\" name=\"total\" required placeholder=\" Litros\"><br>\n");
+      out.write("                <label>Preço do litro:</label>\n");
+      out.write("                <input type=\"number\" size=\"10\" name=\"preco\" required placeholder=\" R$\"><br>\n");
+      out.write("                <label>Consumo médio:</label>\n");
+      out.write("                <input type=\"number\" size=\"10\" name=\"consumo\" required placeholder=\" Km/l\"><br><br>\n");
       out.write("                <input class=\"btn left\" type=\"submit\" value=\"Calcular\">\n");
       out.write("            </form>\n");
       out.write("            <form method=\"get\" action=\"network.jsp\">\n");
