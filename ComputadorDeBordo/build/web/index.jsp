@@ -18,7 +18,7 @@
                 <input type="text" size="10" name="consumo" required><br><br>
                 <input class="btn left" type="submit" value="Calcular">
             </form>
-            <form method="get" action="network.jsp">
+            <form method="get" action="RedeServlet">
                 <input class="btn rigth" type="submit" value="Testar rede">
             </form>
         </div>

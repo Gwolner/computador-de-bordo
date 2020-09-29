@@ -59,10 +59,10 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                <input type=\"text\" size=\"10\" name=\"preco\" required><br>\n");
       out.write("                <label>Consumo médio (Km/l):</label>\n");
       out.write("                <input type=\"text\" size=\"10\" name=\"consumo\" required><br><br>\n");
-      out.write("                <input class=\"btn\" type=\"submit\" value=\"Calcular\">\n");
+      out.write("                <input class=\"btn left\" type=\"submit\" value=\"Calcular\">\n");
       out.write("            </form>\n");
       out.write("            <form method=\"get\" action=\"network.jsp\">\n");
-      out.write("                <input class=\"btn\" type=\"submit\" value=\"Testar rede\">\n");
+      out.write("                <input class=\"btn rigth\" type=\"submit\" value=\"Testar rede\">\n");
       out.write("            </form>\n");
       out.write("        </div>\n");
       out.write("    </body>\n");
