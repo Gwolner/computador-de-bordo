@@ -13,7 +13,7 @@
 }
 
 .board{
-    border: 1px solid;
+    border: none;
     width: 500px;
     background-color: #ccccff;
     margin: 20px 35%;
