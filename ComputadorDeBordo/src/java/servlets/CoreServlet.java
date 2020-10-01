@@ -9,8 +9,8 @@ import javax.servlet.http.HttpServletResponse;
 import model.OperacaoDeCalculo;
 
 
-@WebServlet(name = "ComputadorServlet", urlPatterns = {"/ComputadorServlet"})
-public class ComputadorServlet extends HttpServlet {
+@WebServlet(name = "CoreServlet", urlPatterns = {"/CoreServlet"})
+public class CoreServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
@@ -22,6 +22,7 @@ public class ComputadorServlet extends HttpServlet {
         float consumo = Float.parseFloat(request.getParameter("consumo"));
         
         //Tratando os dados (chamando classe OperacaoDeCalculo)
+        
         float valor = new OperacaoDeCalculo().calcularValor(total, preco);
         float distancia = new OperacaoDeCalculo().calcularDistancia(total, consumo);
        

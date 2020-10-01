@@ -9,7 +9,7 @@
     <body>
         <div class="board">
             <h1 class="title">iGmax</h1>
-            <form method="post" action="ComputadorServlet">
+            <form method="post" action="CoreServlet">
                 <label>Total de combustível:</label>
                 <input type="number" size="10" name="total" required placeholder=" Litros"><br>
                 <label>Preço do litro:</label>

@@ -51,7 +51,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("    </head>\n");
       out.write("    <body>\n");
       out.write("        <div class=\"board\">\n");
-      out.write("            <h1 class=\"title\">Painel principal</h1>\n");
+      out.write("            <h1 class=\"title\">iGmax</h1>\n");
       out.write("            <form method=\"post\" action=\"ComputadorServlet\">\n");
       out.write("                <label>Total de combustível:</label>\n");
       out.write("                <input type=\"number\" size=\"10\" name=\"total\" required placeholder=\" Litros\"><br>\n");
