@@ -6,7 +6,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import model.OperacaoDeCalculo;
+import model.Operation;
 
 
 @WebServlet(name = "CoreServlet", urlPatterns = {"/CoreServlet"})
@@ -21,10 +21,10 @@ public class CoreServlet extends HttpServlet {
         float preco = Float.parseFloat(request.getParameter("preco"));
         float consumo = Float.parseFloat(request.getParameter("consumo"));
         
-        //Tratando os dados (chamando classe OperacaoDeCalculo)
+        //Tratando os dados (chamando classe Operation)
         
-        float valor = new OperacaoDeCalculo().calcularValor(total, preco);
-        float distancia = new OperacaoDeCalculo().calcularDistancia(total, consumo);
+        float valor = new Operation().calcularValor(total, preco);
+        float distancia = new Operation().calcularDistancia(total, consumo);
        
         //Atribuindo os dados tratado na requisição
         request.setAttribute("valor", valor);

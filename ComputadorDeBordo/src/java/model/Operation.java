@@ -1,12 +1,12 @@
 package model;
 
 
-public class OperacaoDeCalculo {
+public class Operation {
     
     private float valor;
     private float distancia;
     
-    public OperacaoDeCalculo(){
+    public Operation(){
         this.valor = 0;
         this.distancia = 0;
     }

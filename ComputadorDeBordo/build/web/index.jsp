@@ -11,11 +11,11 @@
             <h1 class="title">iGmax</h1>
             <form method="post" action="CoreServlet">
                 <label>Total de combustível:</label>
-                <input type="number" size="10" name="total" required placeholder=" Litros"><br>
+                <input type="text" pattern="[0-9]" title="Somente números" size="5" name="total" required placeholder=" Litros"><br>
                 <label>Preço do litro:</label>
-                <input type="number" size="10" name="preco" required placeholder=" R$"><br>
+                <input type="text" pattern="[0-9]" title="Somente números" size="5" name="preco" required placeholder=" R$"><br>
                 <label>Consumo médio:</label>
-                <input type="number" size="10" name="consumo" required placeholder=" Km/l"><br><br>
+                <input type="text" pattern="[0-9]" title="Somente números" size="5" name="consumo" required placeholder=" Km/l"><br><br>
                 <input class="btn left" type="submit" value="Calcular">
             </form>
             <form method="get" action="network.jsp">
