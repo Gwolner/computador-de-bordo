@@ -10,11 +10,11 @@
         <div class="board">
             <h1 class="title">Status da rede</h1>
 
-            <div class="net">
-                <iframe src="iframe-result.jsp">
+            <!--<div class="net">-->
+                <iframe src="iframe-result.jsp" width="400" height="50">
                     
                 </iframe>
-            </div>
+            <!--</div>-->
 
             <form>
                 <input class="btn" type="submit" value="Voltar" formmethod="get" formaction="index.jsp">
