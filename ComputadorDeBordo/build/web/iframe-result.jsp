@@ -7,15 +7,37 @@
         <title>iGmax</title>
     </head>
     <body>       
-            <div class="net">
-                <label> Nome do servlet ...........: </label> <%= request.getContextPath()%> <br>
-                <label> Nome da máquina local .....: </label> <%= request.getLocalName()%> <br>
-                <label> Endereço da máquina local .: </label> <%= request.getLocalAddr()%> <br>
-                <label> Porta da máquina local ....: </label> <%= request.getLocalPort()%> <br>
-                <label> Endereço do servidor ......: </label> <%= request.getRemoteHost()%> <br>
-                <label> Porta do servidor .........: </label> <%= request.getRemotePort()%> <br>
-                <label> Método de requisição ......: </label> <%= request.getMethod()%> <br>
-                <label> Protocolo utilizado .......: </label> <%= request.getProtocol()%> <br>
-            </div>
+        <div class="bkg">
+            <label class="a-side"> Nome do servlet: </label>
+            <label class="b-side"><%= request.getContextPath()%></label>
+            <br>
+            
+            <label class="a-side"> Nome da máquina local: </label>
+            <label class="b-side"><%= request.getLocalName()%></label>
+            <br>
+            
+            <label class="a-side"> Endereço da máquina local: </label>
+            <label class="b-side"><%= request.getLocalAddr()%></label>
+            <br>
+            
+            <label class="a-side"> Porta da máquina local: </label>
+            <label class="b-side"><%= request.getLocalPort()%></label>
+            <br>
+            
+            <label class="a-side"> Endereço do servidor: </label>
+            <label class="b-side"><%= request.getRemoteHost()%></label>
+            <br>
+            
+            <label class="a-side"> Porta do servidor: </label>
+            <label class="b-side"><%= request.getRemotePort()%></label>
+            <br>
+            
+            <label class="a-side"> Método de requisição: </label>
+            <label class="b-side"><%= request.getMethod()%></label>
+            <br>
+            
+            <label class="a-side"> Protocolo utilizado: </label>
+            <label class="b-side"><%= request.getProtocol()%></label>
+        </div>
     </body>
 </html>
