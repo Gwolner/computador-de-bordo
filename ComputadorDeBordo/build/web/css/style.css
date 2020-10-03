@@ -11,10 +11,10 @@ html{
     height: 100%;
 }
 
-body{
-    background: linear-gradient(#777777, #292929);
+body{    
+    background-image: url("../img/panel.jpg");
     background-repeat: no-repeat;
-    
+    background-position: center;
 }
 
 .title{
