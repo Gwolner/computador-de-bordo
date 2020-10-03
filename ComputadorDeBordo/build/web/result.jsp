@@ -7,7 +7,7 @@
         <title>iGmax</title>
     </head>
     <body>
-        <div class="board">
+        <div class="bkg">            
             <h1 class="title">Resultado</h1>
             <form method="get" action="index.jsp">
                 <label>Distância máxima (Km):</label>
@@ -15,7 +15,7 @@
                 <label>Valor gasto para abastecer (R$):</label>
                 <label> <%= request.getAttribute("valor")%> </label><br>
                 <input class="btn" type="submit" value="Voltar" >
-            </form>
+            </form>            
         </div>
     </body>
 </html>

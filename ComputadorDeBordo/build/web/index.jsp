@@ -7,13 +7,15 @@
         <title>iGmax</title>
     </head>
     <body>
-        <div class="board">
+        <div class="bkg">
             <h1 class="title">iGmax</h1>
             <form method="post" action="CoreServlet">
                 <label>Total de combustível:</label>
                 <input type="text" pattern="[0-9]" title="Somente números" size="5" name="total" required placeholder=" Litros"><br>
+                <br>
                 <label>Preço do litro:</label>
                 <input type="text" pattern="[0-9]" title="Somente números" size="5" name="preco" required placeholder=" R$"><br>
+                <br>
                 <label>Consumo médio:</label>
                 <input type="text" pattern="[0-9]" title="Somente números" size="5" name="consumo" required placeholder=" Km/l"><br><br>
                 <input class="btn left" type="submit" value="Calcular">
@@ -21,6 +23,6 @@
             <form method="get" action="network.jsp">
                 <input class="btn rigth" type="submit" value="Testar rede">
             </form>
-        </div>
+        </div>    
     </body>
 </html>

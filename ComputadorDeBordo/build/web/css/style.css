@@ -7,45 +7,41 @@
     outline: none;
 }
 
-html{
+html, body{
     height: 100%;
+    margin: 0;
 }
 
-body{    
+.bkg{
+    height: 100%;
     background-image: url("../img/panel.jpg");
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
 }
 
 .title{
-    font-size: 50px;
-    text-align: center;
-    padding: 10px;
+    font-size: 100px;
+    color: #FF6700;
+    padding: 120px 0px 80px 320px;
 }
 
-.board{
-    border: none;
-    width: 500px;
-    height: 300px;
-    background-color: #2F4EA4;
-    margin: 200px 35% 0px;
-    padding: 40px 50px 70px 50px;
-    border-radius: 110px;
+
+label{
+    font-size: 70px;
+    color: #FF6700;
+    padding: 110px 0px 80px 320px;    
 }
 
-.board label{
-    display: inline-block;
-}
-
-.board .net label{
-    width: 210px;
-}
-
-.board form input[type="text"]{
-    
+input[type="text"]{
+    font-size: 30px;
     float: right;
+    margin-top: 20px;
+    margin-right: 350px;
+        
 }
 
+/*
 .btn{
     font-size: 16px;
     font-family: 'arial';
@@ -66,4 +62,4 @@ body{
 .rigth{
     float: right;
     position: absolute;
-}
+}*/

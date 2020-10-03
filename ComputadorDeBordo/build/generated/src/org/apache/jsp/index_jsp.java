@@ -50,10 +50,10 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("        <title>iGmax</title>\n");
       out.write("    </head>\n");
       out.write("    <body>\n");
-      out.write("        <div class=\"board\">\n");
+      out.write("        <div class=\"bkg\">\n");
       out.write("            <h1 class=\"title\">iGmax</h1>\n");
       out.write("            <form method=\"post\" action=\"CoreServlet\">\n");
-      out.write("                <label>Total de combustível:</label>\n");
+      out.write("                <label class=\"um\">Total de combustível:</label>\n");
       out.write("                <input type=\"text\" pattern=\"[0-9]\" title=\"Somente números\" size=\"5\" name=\"total\" required placeholder=\" Litros\"><br>\n");
       out.write("                <label>Preço do litro:</label>\n");
       out.write("                <input type=\"text\" pattern=\"[0-9]\" title=\"Somente números\" size=\"5\" name=\"preco\" required placeholder=\" R$\"><br>\n");
@@ -64,7 +64,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("            <form method=\"get\" action=\"network.jsp\">\n");
       out.write("                <input class=\"btn rigth\" type=\"submit\" value=\"Testar rede\">\n");
       out.write("            </form>\n");
-      out.write("        </div>\n");
+      out.write("        </div>    \n");
       out.write("    </body>\n");
       out.write("</html>\n");
     } catch (Throwable t) {
