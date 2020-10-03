@@ -7,17 +7,18 @@
         <title>iGmax</title>
     </head>
     <body>
-        <div class="bkg">            
-            <h1 class="title">Status da rede</h1>
+        <div class="bkg">
 
-            <!--<div class="net">-->
-            <iframe src="iframe-result.jsp" width="400" height="50">
+            <h1 class="title">iGmax<span class="subtitle"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Rede &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </span></h1>
 
-            </iframe>
-            <!--</div>-->
+            <div class="div-iframe">
+                <iframe src="iframe-result.jsp"></iframe>    
+            </div>
 
             <form>
-                <input class="btn" type="submit" value="Voltar" formmethod="get" formaction="index.jsp">
+                <div class="div-middle-btn1">
+                    <input class="btn middle btn-unique" type="submit" value="Voltar" formmethod="get" formaction="index.jsp">
+                </div>
             </form>            
         </div>
     </body>

@@ -22,11 +22,24 @@ html, body{
 }
 
 /*Título*/
+
 .title{
     font-size: 100px;
     color: #FF6700;
     padding: 80px 0px 40px 320px;
+    font-style: oblique;
 }
+
+.subtitle{
+    font-size: 60px;
+    text-decoration: underline;
+}
+
+.underline{
+    text-decoration: underline;
+    color: #FF6700;
+}
+
 
 /*Index*/
 label{
@@ -42,7 +55,32 @@ input[type="text"]{
     margin-right: 350px;    
 }
 
-/*Botão index*/
+
+/*Result*/
+.copy-input{
+    font-size: 30px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 350px;
+}
+
+/*Network*/
+.div-iframe{
+    width: 680px;
+    overflow: hidden;
+    margin-left: 300px;
+}
+iframe{
+    width: 700px;
+    height: 200px;
+    border: none;   
+}
+
+/*Iframe result*/
+
+
+
+/*Botões*/
 .btn{
     font-size: 30px;
     font-family: 'arial';
@@ -57,7 +95,7 @@ input[type="text"]{
 
 .div-left-btn{
     margin-top: 40px;
-    margin-left: 370px;
+    margin-left: 305px;
 }
 
 .left{
@@ -74,4 +112,19 @@ input[type="text"]{
     float: right;
     position: absolute;
     border-radius: 5px 10px 50px 5px;
+}
+
+/*Botões telas secundárias*/
+.div-middle-btn1{
+    margin-top: 65px;
+    margin-left: 525px;
+}
+
+.div-middle-btn2{
+    margin-top: 80px;
+    margin-left: 525px;
+}
+
+.btn-unique{
+    border-radius: 10px 10px 50px 50px;
 }

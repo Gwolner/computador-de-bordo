@@ -8,16 +8,21 @@
     </head>
     <body>
         <div class="bkg">
+            
             <h1 class="title">iGmax</h1>
+            
             <form method="post" action="CoreServlet">
                 <label>Total de combustível:</label>
-                <input type="text" pattern="[0-9]" title="Somente números" size="5" name="total" required placeholder=" Litros"><br>
+                <input value="8" type="text" pattern="[0-9]" title="Somente números" size="5" name="total" required placeholder=" Litros"><br>
                 <br>
+                
                 <label>Preço do litro:</label>
-                <input type="text" pattern="[0-9]" title="Somente números" size="5" name="preco" required placeholder=" R$"><br>
+                <input value="8" type="text" pattern="[0-9]" title="Somente números" size="5" name="preco" required placeholder=" R$"><br>
                 <br>
+                
                 <label>Consumo médio:</label>
-                <input type="text" pattern="[0-9]" title="Somente números" size="5" name="consumo" required placeholder=" Km/l"><br><br>
+                <input value="8" type="text" pattern="[0-9]" title="Somente números" size="5" name="consumo" required placeholder=" Km/l"><br><br>
+                
                 <div class="div-left-btn">
                     <input class="btn left" type="reset" value="Limpar">
                     <input class="btn middle" type="submit" value="Calcular">
