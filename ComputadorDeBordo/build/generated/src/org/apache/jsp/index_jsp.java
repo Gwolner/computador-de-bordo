@@ -53,10 +53,12 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("        <div class=\"bkg\">\n");
       out.write("            <h1 class=\"title\">iGmax</h1>\n");
       out.write("            <form method=\"post\" action=\"CoreServlet\">\n");
-      out.write("                <label class=\"um\">Total de combustível:</label>\n");
+      out.write("                <label>Total de combustível:</label>\n");
       out.write("                <input type=\"text\" pattern=\"[0-9]\" title=\"Somente números\" size=\"5\" name=\"total\" required placeholder=\" Litros\"><br>\n");
+      out.write("                <br>\n");
       out.write("                <label>Preço do litro:</label>\n");
       out.write("                <input type=\"text\" pattern=\"[0-9]\" title=\"Somente números\" size=\"5\" name=\"preco\" required placeholder=\" R$\"><br>\n");
+      out.write("                <br>\n");
       out.write("                <label>Consumo médio:</label>\n");
       out.write("                <input type=\"text\" pattern=\"[0-9]\" title=\"Somente números\" size=\"5\" name=\"consumo\" required placeholder=\" Km/l\"><br><br>\n");
       out.write("                <input class=\"btn left\" type=\"submit\" value=\"Calcular\">\n");

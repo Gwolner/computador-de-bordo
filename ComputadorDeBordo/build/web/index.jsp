@@ -18,7 +18,10 @@
                 <br>
                 <label>Consumo médio:</label>
                 <input type="text" pattern="[0-9]" title="Somente números" size="5" name="consumo" required placeholder=" Km/l"><br><br>
-                <input class="btn left" type="submit" value="Calcular">
+                <div class="div-left-btn">
+                    <input class="btn left" type="reset" value="Limpar">
+                    <input class="btn middle" type="submit" value="Calcular">
+                </div>
             </form>
             <form method="get" action="network.jsp">
                 <input class="btn rigth" type="submit" value="Testar rede">
