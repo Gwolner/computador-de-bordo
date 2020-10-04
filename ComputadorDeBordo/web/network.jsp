@@ -12,7 +12,7 @@
             <h1 class="title">iGmax<span class="subtitle"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Rede &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </span></h1>
 
             <div class="div-iframe">
-                <iframe src="iframe-result.jsp"></iframe>    
+                <iframe src="network-iframe.jsp"></iframe>    
             </div>
 
             <form>
