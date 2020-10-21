@@ -13,15 +13,15 @@
             
             <form method="post" action="CoreServlet">
                 <label>Total de combustível:</label>
-                <input value="8" type="text" pattern="[0-9]" title="Somente números" size="5" name="total" required placeholder=" Litros"><br>
+                <input type="text" pattern="[0-9]{1,5}" title="Somente números" size="5" name="total" required placeholder=" Litros"><br>
                 <br>
                 
                 <label>Preço do litro:</label>
-                <input value="8" type="text" pattern="[0-9]" title="Somente números" size="5" name="preco" required placeholder=" R$"><br>
+                <input type="text" pattern="[0-9]*[.]?[0-9]+" title="Somente números" size="5" name="preco" required placeholder=" R$"><br>
                 <br>
                 
                 <label>Consumo médio:</label>
-                <input value="8" type="text" pattern="[0-9]" title="Somente números" size="5" name="consumo" required placeholder=" Km/l"><br><br>
+                <input type="text" pattern="[0-9]{1,5}" title="Somente números" size="5" name="consumo" required placeholder=" Km/l"><br><br>
                 
                 <div class="div-left-btn">
                     <input class="btn left" type="reset" value="Limpar">

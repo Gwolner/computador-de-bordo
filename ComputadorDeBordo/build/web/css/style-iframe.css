@@ -17,15 +17,10 @@ html, body{
 .a-side{
     font-size: 30px;
     color: #FF6700;
-    /*float: left;*/
 }
 
 .b-side{
     font-size: 30px;
     color: #FF6700;
-    float: right;
-    /*margin-top: 20px;*/
-    /*margin-right: 350px;*/
-    /*margin-bottom: 20px;*/
-
+    float: right;  
 }
